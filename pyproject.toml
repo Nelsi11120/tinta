@@ -14,6 +14,15 @@ black = "^23.3.0"
 pylint = "^2.17.4"
 pre-commit = "^3.3.2"
 
+
+[tool.poetry.group.semver.dependencies]
+python-semantic-release = "^7.34.3"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_variable = "src/__init__.py:__version__"
+branch = "main"
+upload_to_repository = false
