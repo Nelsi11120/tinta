@@ -2,6 +2,20 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2023-06-09)
+
+### Fix
+
+* Remove release param ([`a5d5166`](https://github.com/Nelsi11120/tinta/commit/a5d5166ca0f33b2483f4a7ffa56771895ff7c49d))
+
+## v0.2.0 (2023-06-09)
+
+### Feature
+
+* New test ([`b4ac9a7`](https://github.com/Nelsi11120/tinta/commit/b4ac9a748ba1c15c8f148b60a378f696b8a6d125))
+* New ([`b930dfe`](https://github.com/Nelsi11120/tinta/commit/b930dfee8a15c778bd02742b810bfe5cf1c59130))
+* New version ([`a3f715f`](https://github.com/Nelsi11120/tinta/commit/a3f715f95ab083a05eaa3f8dc11ea2e532e3def2))
+
 ## v0.0.1 (2023-06-09)
 
 ### Fix
