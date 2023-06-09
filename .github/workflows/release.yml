@@ -1,0 +1,50 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Repository
+        uses: actions/checkout@v3
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9.17'
+          cache: 'poetry' # caching pip dependencies
+      - name: Install dependencies with poetry
+        run: poetry install --without semver
+      - name: pre-commit formatter
+        uses: pre-commit/action@v3.0.0
+  release:
+    runs-on: ubuntu-latest
+    needs: format
+    concurrency: release
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    steps:
+      - name: Check out Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9.17'
+          cache: 'poetry' # caching pip dependencies
+      - name: Install dependencies with poetry
+        run: poetry install --only semver
+      - name: Python Semantic Release
+        uses: relekang/python-semantic-release@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          repository_username: __token__
+          repository_password: ${{ secrets.PYPI_TOKEN }}
