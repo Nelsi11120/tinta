@@ -1,5 +1,6 @@
 a  =  0
 
+
 while True:
   a += 0
   print ( "increased"  )
