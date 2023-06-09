@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2023-06-09)
+
+### Fix
+
+* Remove release param ([`a5d5166`](https://github.com/Nelsi11120/tinta/commit/a5d5166ca0f33b2483f4a7ffa56771895ff7c49d))
+
 ## v0.2.0 (2023-06-09)
 
 ### Feature
