@@ -1,2 +1,11 @@
-"""Module test"""
-print("Hello, World!")
+def main():
+    """
+
+    Returns:
+
+    """
+    print("Hello World!")
+
+
+if __name__ == "__main__":
+    main()
