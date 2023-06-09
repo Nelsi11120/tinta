@@ -16,6 +16,7 @@ repos:
         # https://pre-commit.com/#top_level-default_language_version
         language_version: python3.11
         stages: [ commit, push ]
+        verbose: true
 
   - repo: local
     hooks:
@@ -25,6 +26,8 @@ repos:
         language: system
         types:
           - python
+        stages: [ commit, push ]
+        verbose: true
 
 default_stages:
   - commit
