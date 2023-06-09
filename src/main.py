@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 def main():
     """
-    add new release
+    test merge
     Returns:
 
     """
-    print("Hello World!!")
+    print("Hello World!")
 
 
 if __name__ == "__main__":
