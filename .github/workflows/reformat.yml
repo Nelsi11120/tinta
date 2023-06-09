@@ -1,7 +1,7 @@
 name: Format code
 on:
   push:
-    branches: ["main"]
+    branches: ["develop"]
 jobs:
   format:
     runs-on: ubuntu-latest
