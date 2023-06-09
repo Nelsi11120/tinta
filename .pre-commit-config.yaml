@@ -18,14 +18,10 @@ repos:
         stages: [ commit, push ]
         verbose: true
 
-  - repo: local
+  - repo: https://github.com/pycqa/pylint
+    rev: pylint-3.0.0a1
     hooks:
-    -   id: pylint
-        name: pylint
-        entry: pylint
-        language: system
-        types: [python]
-        require_serial: true
+      - id: pylint
         stages: [ commit, push ]
 
 default_stages:
