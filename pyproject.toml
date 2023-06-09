@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "tinta"
+version = "0.1.0"
+description = "This is a ML project for hand drawing recongition"
+authors = ["nelson <nelson.antunes994@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
