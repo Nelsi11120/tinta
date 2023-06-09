@@ -17,9 +17,5 @@ jobs:
           cache: 'poetry' # caching pip dependencies
       - name: Install dependencies with poetry
         run: poetry install
-      - name: Pylint formatter
-        run: |
-          poetry run pylint ./src
-      - name: Format code with black
-        run: |
-          poetry run black ./src --check --verbose
+      - name: pre-commit formatter
+        uses: pre-commit/action@v3.0.0
