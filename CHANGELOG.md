@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.3.0 (2023-06-10)
+
+### Feature
+
+* Workflow build triggered only on main branch and after format one ([`14e26e8`](https://github.com/Nelsi11120/tinta/commit/14e26e814df1e9bbffb17c31bb18abc104b0e926))
+
 ## v0.2.1 (2023-06-09)
 
 ### Fix
