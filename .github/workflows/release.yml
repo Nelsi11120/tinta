@@ -29,3 +29,22 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           repository_username: __token__
           repository_password: ${{ secrets.PYPI_TOKEN }}
+
+  merge-main-back-to-dev:
+    needs: release
+    timeout-minutes: 2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Repository
+        uses: actions/checkout@v3
+      - name: Set Git Config
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
+      - name: Merge main back to develop
+        run: |
+          git fetch --unshallow
+          git checkout dev
+          git pull
+          git merge --no-ff main -m "Auto-merge main back to dev"
+          git push
