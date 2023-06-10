@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.4.0 (2023-06-10)
+
+### Feature
+
+* Auto-merge main back to dev after successful release ([`43978f6`](https://github.com/Nelsi11120/tinta/commit/43978f687168f97e927b0c5bdf1ac315b03a5dad))
+
 ## v0.3.0 (2023-06-10)
 
 ### Feature
