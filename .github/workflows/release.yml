@@ -1,9 +1,10 @@
 name: Release
 on:
-  pull_request:
-    types: closed
-    branches:
-      - main
+  # triggers only when the format workflow succeeded on the main branch
+  workflow_run:
+    workflows: [ "Format" ]
+    types: completed
+    branches: [ main ]
 jobs:
   release:
     runs-on: ubuntu-latest
