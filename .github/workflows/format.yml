@@ -32,3 +32,21 @@ jobs:
         run: poetry install --without semver
       - name: pre-commit formatter
         uses: pre-commit/action@v3.0.0
+  merge-main-back-to-dev:
+    needs: release
+    timeout-minutes: 2
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Repository
+        uses: actions/checkout@v3
+      - name: Set Git Config
+        run: |
+          git config --local user.email "nelson.antunes994@gmail.com"
+          git config --local user.name "nelsi11120"
+      - name: Merge main back to develop
+        run: |
+          git fetch --unshallow
+          git checkout develop
+          git pull
+          git merge --no-ff main -m "Auto-merge main back to develop"
+          git push
