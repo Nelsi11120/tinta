@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.6.2 (2023-06-11)
+
+### Fix
+
+* Add new trigger token ([`1faa620`](https://github.com/Nelsi11120/tinta/commit/1faa620472fc694e0da5aa61d30e1d565b0729cc))
+
 ## v0.6.1 (2023-06-11)
 
 ### Fix
