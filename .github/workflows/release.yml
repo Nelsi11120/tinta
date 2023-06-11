@@ -28,7 +28,6 @@ jobs:
         with:
           github_token: ${{ secrets.RELEASE_TOKEN }}
           repository_username: __token__
-          repository_password: ${{ secrets.PYPI_TOKEN }}
 
   merge-main-back-to-dev:
     needs: release
