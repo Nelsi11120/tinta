@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.7.1 (2023-06-11)
+
+### Fix
+
+* Tmp remove merge back ([`49de9c7`](https://github.com/Nelsi11120/tinta/commit/49de9c70498b0cf6857a2269e5dfb3acc576001c))
+
 ## v0.7.0 (2023-06-11)
 
 ### Feature
