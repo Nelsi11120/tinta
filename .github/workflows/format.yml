@@ -7,7 +7,6 @@ on:
     pull_request:
 jobs:
   format:
-    needs: commitlint
     runs-on: ubuntu-latest
     steps:
       - name: Check out Repository
