@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.6.0 (2023-06-11)
+
+### Feature
+
+* Add trigger on new release ([`0d3cdcf`](https://github.com/Nelsi11120/tinta/commit/0d3cdcfee06eb11ce24887f807bf3e77b564ce5c))
+
 ## v0.5.0 (2023-06-11)
 
 ### Feature
