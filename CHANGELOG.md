@@ -2,6 +2,16 @@
 
 <!--next-version-placeholder-->
 
+## v0.5.0 (2023-06-11)
+
+### Feature
+
+* New release ([`7aabd8c`](https://github.com/Nelsi11120/tinta/commit/7aabd8c7ebf0dd59f2c811f8e59c0db59fa6d8af))
+
+### Documentation
+
+* Project description ([`cd08086`](https://github.com/Nelsi11120/tinta/commit/cd08086d642b46f33d243e1b280718d21f0b7a2c))
+
 ## v0.4.0 (2023-06-10)
 
 ### Feature
