@@ -2,6 +2,24 @@
 
 <!--next-version-placeholder-->
 
+## v0.7.2 (2023-06-11)
+
+### Fix
+
+* Tmp remove merge back 2 ([`d121066`](https://github.com/Nelsi11120/tinta/commit/d12106603fad8334607ed0fc0673d669a09bc2ff))
+
+## v0.7.1 (2023-06-11)
+
+### Fix
+
+* Tmp remove merge back ([`49de9c7`](https://github.com/Nelsi11120/tinta/commit/49de9c70498b0cf6857a2269e5dfb3acc576001c))
+
+## v0.7.0 (2023-06-11)
+
+### Feature
+
+* New CI trigger ([`51f8e81`](https://github.com/Nelsi11120/tinta/commit/51f8e81a2c85178c7f8bc313c07f238098b90110))
+
 ## v0.6.2 (2023-06-11)
 
 ### Fix
