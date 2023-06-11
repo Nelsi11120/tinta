@@ -2,6 +2,16 @@
 
 <!--next-version-placeholder-->
 
+## v0.8.0 (2023-06-11)
+
+### Feature
+
+* Add build & pull to docker hub ([`4355028`](https://github.com/Nelsi11120/tinta/commit/435502846bcfc4dbc9b360c4727670d099ea12a3))
+
+### Fix
+
+* Merge back workflow ([`fbbd882`](https://github.com/Nelsi11120/tinta/commit/fbbd882374c359c375567589a645a14ce5a45cd2))
+
 ## v0.7.2 (2023-06-11)
 
 ### Fix
