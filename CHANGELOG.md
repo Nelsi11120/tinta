@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.8.1 (2023-06-11)
+
+### Fix
+
+* Remove flux compontents ([`83f70d3`](https://github.com/Nelsi11120/tinta/commit/83f70d327de30b35d3274fd90ee895d27f8edb02))
+
 ## v0.8.0 (2023-06-11)
 
 ### Feature
