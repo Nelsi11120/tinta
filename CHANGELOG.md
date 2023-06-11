@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v0.7.0 (2023-06-11)
+
+### Feature
+
+* New CI trigger ([`51f8e81`](https://github.com/Nelsi11120/tinta/commit/51f8e81a2c85178c7f8bc313c07f238098b90110))
+
 ## v0.6.2 (2023-06-11)
 
 ### Fix
