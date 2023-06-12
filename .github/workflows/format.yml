@@ -5,7 +5,8 @@ on:
       - main
       - develop
   pull_request:
-      - develop
+    branches:
+      - main
 jobs:
   run_if:
     if: github.event.pull_request.base.ref != 'main'
