@@ -5,6 +5,7 @@ on:
       - main
       - develop
     pull_request:
+      - main
 jobs:
   commitlint:
     runs-on: ubuntu-latest

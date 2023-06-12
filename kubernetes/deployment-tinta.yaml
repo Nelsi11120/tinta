@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tinta-deployment
+  labels:
+    app: tinta
+  namespace: tinta-dev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tinta
+  template:
+    metadata:
+      labels:
+        app: tinta
+    spec:
+      containers:
+      - name: tinta
+        image: nelsi11120/tinta:0.8.1
