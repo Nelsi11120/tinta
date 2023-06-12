@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.9.0 (2023-06-12)
+
+### Feature
+
+* Add arm64 support build for our containers ([`f9af86c`](https://github.com/Nelsi11120/tinta/commit/f9af86c546c8927ac47147f2ff69e8b06df286ed))
+* Add arm64 support build for our containers ([`0a9f932`](https://github.com/Nelsi11120/tinta/commit/0a9f932eb009c887a97c0a7c40010d3ef0eca88b))
+
 ## v0.8.1 (2023-06-11)
 
 ### Fix
