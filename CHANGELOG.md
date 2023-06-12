@@ -2,6 +2,14 @@
 
 <!--next-version-placeholder-->
 
+## v0.9.1 (2023-06-12)
+
+### Fix
+
+* Typo ([`87a32c0`](https://github.com/Nelsi11120/tinta/commit/87a32c07d6018aa4fecca029e40161d0437a75f9))
+* Prevent trigger twice ([`6d0d8d4`](https://github.com/Nelsi11120/tinta/commit/6d0d8d46cf451466d809bff51b571e865d2678ad))
+* Add condition for workflows to work better ([`eb99ec6`](https://github.com/Nelsi11120/tinta/commit/eb99ec6563afce1aabc8ed02a8a95085127df69c))
+
 ## v0.9.0 (2023-06-12)
 
 ### Feature
