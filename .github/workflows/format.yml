@@ -4,9 +4,15 @@ on:
     branches:
       - main
       - develop
-    pull_request:
+  pull_request:
+    branches:
       - main
 jobs:
+  run_if:
+    if: github.event.pull_request.base.ref != 'main'
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "The head of this PR starts with 'develop/'"
   commitlint:
     runs-on: ubuntu-latest
     steps:
