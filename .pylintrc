@@ -2,3 +2,4 @@
 [MASTER]
 disable=
     C0114, # missing-module-docstring
+    E0401, # module import
