@@ -948,13 +948,13 @@ gitdb = ">=4.0.1,<5"
 
 [[package]]
 name = "gradio"
-version = "3.34.0"
+version = "3.32.0"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "gradio-3.34.0-py3-none-any.whl", hash = "sha256:1cd8b25b598d983561d64f0a039af819382f1376c676aa9f84972c46b6875741"},
-    {file = "gradio-3.34.0.tar.gz", hash = "sha256:fd7fa7257ffc749f9dc7c297eba554eaa1e5acd1a5f9c973250b2080932d6a41"},
+    {file = "gradio-3.32.0-py3-none-any.whl", hash = "sha256:68d2ebfadcabb0a088e90328fcde18dbc063237a092f3a414a2defe2b674f10f"},
+    {file = "gradio-3.32.0.tar.gz", hash = "sha256:bcdd97bccffe5dd904574d060cf685082ac7261a51164bb0854e9648fbd45ec1"},
 ]
 
 [package.dependencies]
@@ -963,9 +963,9 @@ aiohttp = "*"
 altair = ">=4.2.0"
 fastapi = "*"
 ffmpy = "*"
-gradio-client = ">=0.2.6"
+gradio-client = ">=0.2.4"
 httpx = "*"
-huggingface-hub = ">=0.14.0"
+huggingface-hub = ">=0.13.0"
 jinja2 = "*"
 markdown-it-py = {version = ">=2.0.0", extras = ["linkify"]}
 markupsafe = "*"
@@ -2981,4 +2981,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "b80bd9483413545677d12aaf9b49ef10f7c837b7b6b96c820052ee8616acf9d7"
+content-hash = "83af8913913e26a8d11aeb60899bf775ce4e6edc18f5a86d503b4618f8b12535"
