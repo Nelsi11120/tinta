@@ -2,6 +2,14 @@
 
 <!--next-version-placeholder-->
 
+## v0.10.1 (2023-06-13)
+
+### Fix
+
+* Pre commit check yaml ([`e5b97c4`](https://github.com/Nelsi11120/tinta/commit/e5b97c47b4fe6b44284000d53ab12ae0690e84e4))
+* Downgrade gradio to fix clear btn ([`39b5ec8`](https://github.com/Nelsi11120/tinta/commit/39b5ec871d900439df0c0736a1799e81f1b627e2))
+* Remove merge request condition ([`8b9f98b`](https://github.com/Nelsi11120/tinta/commit/8b9f98bf05885163adbb1ee94fc447367fdfbdf9))
+
 ## v0.10.0 (2023-06-13)
 
 ### Feature
