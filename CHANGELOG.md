@@ -2,6 +2,18 @@
 
 <!--next-version-placeholder-->
 
+## v0.10.0 (2023-06-13)
+
+### Feature
+
+* Create the sketch recognition app skeleton ([`0fbef0f`](https://github.com/Nelsi11120/tinta/commit/0fbef0f04cb18aead1488f479885c14575d51912))
+
+### Fix
+
+* Diasble error pylint ([`c755ab4`](https://github.com/Nelsi11120/tinta/commit/c755ab4e1cb80d7a3c64a26556e1b01d137bf91c))
+* Diasble error pylint ([`e1fc601`](https://github.com/Nelsi11120/tinta/commit/e1fc60190ed72c9064999d828cdb511a5803f8c7))
+* Add pylint executable ([`c37417f`](https://github.com/Nelsi11120/tinta/commit/c37417f84915f5823ab3c036f0478321f66fee50))
+
 ## v0.9.1 (2023-06-12)
 
 ### Fix
