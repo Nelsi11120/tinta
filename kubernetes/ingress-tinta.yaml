@@ -1,0 +1,43 @@
+apiVersion: traefik.containo.us/v1alpha1
+kind: Middleware
+metadata:
+  name: https-only
+  namespace: tinta
+spec:
+  redirectScheme:
+    scheme: https
+    permanent: true
+---
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: tinta-ingress-https
+  namespace: tinta
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - match: Host(`sketch.nelsonantunes.com`)
+      kind: Rule
+      services:
+        - name: tinta-svc
+          port: 7860
+  tls:
+    secretName: tinta-tls
+---
+apiVersion: traefik.containo.us/v1alpha1
+kind: IngressRoute
+metadata:
+  name: tinta-ingress-http
+  namespace: tinta
+spec:
+  entryPoints:
+    - web
+  routes:
+    - match: Host(`sketch.nelsonantunes.com`)
+      middlewares:
+        - name: https-only
+      kind: Rule
+      services:
+        - name: tinta-svc
+          port: 7860

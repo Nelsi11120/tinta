@@ -1,0 +1,14 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: tinta-cert
+  namespace: tinta
+spec:
+  secretName: tinta-tls
+  commonName: nelsonantunes.com
+  dnsNames:
+    - nelsonantunes.com
+    - "*.nelsonantunes.com"
+  issuerRef:
+    name: tinta-issuer
+    kind: Issuer

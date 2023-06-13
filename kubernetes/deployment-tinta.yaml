@@ -4,7 +4,7 @@ metadata:
   name: tinta-deployment
   labels:
     app: tinta
-  namespace: tinta-dev
+  namespace: tinta
 spec:
   replicas: 1
   selector:
@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
       - name: tinta
-        image: nelsi11120/tinta:0.9.1
+        image: nelsi11120/tinta:0.10.0
