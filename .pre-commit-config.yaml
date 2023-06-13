@@ -28,6 +28,15 @@ repos:
         stages: [ commit, push ]
         verbose: true
 
+  - repo: local
+    hooks:
+    -   id: pylint
+        name: pylint
+        entry: pylint
+        language: system
+        types: [python]
+        require_serial: true
+        stages: [ commit, push ]
 
 default_stages:
   - commit
