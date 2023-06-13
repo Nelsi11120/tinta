@@ -1,5 +1,5 @@
 # .pylintrc
 [MASTER]
-init-hook='import sys; sys.path.append(".")'
 disable=
     C0114, # missing-module-docstring
+    E0401, # module import
