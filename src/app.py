@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 import gradio as gr
-import numpy
+import numpy as np
 
 
 # pylint: disable=W0613
 
 
-def sketch_recognition(input_sketch: numpy.ndarray) -> dict:
+def sketch_recognition(input_sketch: np.ndarray) -> dict:
     """
     Takes in the user input, which in this case is a sketched image, and returns the prediction.
 
