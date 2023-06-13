@@ -12,4 +12,4 @@ RUN poetry install --without dev,semver
 
 COPY src/ .
 
-CMD ["python3", "main.py"]
+CMD ["python3", "app.py"]
