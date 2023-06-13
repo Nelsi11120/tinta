@@ -18,8 +18,8 @@ def sketch_recognition(input_sketch: numpy.ndarray) -> dict:
                      and whose values are confidence probabilities
     """
     confidences = {
-        "laptop": 0.2,
-        "cup of coffee": 0.2,
+        "laptop": 0.1,
+        "cup of coffee": 0.3,
         "ghost": 0.2,
         "gift": 0.2,
         "other": 0.2,
