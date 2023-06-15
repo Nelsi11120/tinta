@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.11.0 (2023-06-15)
+
+### Feature
+
+* Add pytorch model ([`be0bd87`](https://github.com/Nelsi11120/tinta/commit/be0bd87048e3f8e5bdc61527230c8032eeb85593))
+* Add pytorch model skeleton and predictions ([`15a8204`](https://github.com/Nelsi11120/tinta/commit/15a8204b3ce1405bd45db493ef2cc7481c67353b))
+
 ## v0.10.1 (2023-06-13)
 
 ### Fix
