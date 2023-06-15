@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 gradio = "3.32.0"
+poethepoet = "^0.20.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -28,3 +29,7 @@ version_variable = "src/__init__.py:__version__"
 branch = "main"
 upload_to_repository = false
 upload_to_release = false
+
+[tool.poe.tasks]
+torch-gpu = "pip install torch==1.10.0+cu117 torchvision==0.14.0+cu117 --index-url https://download.pytorch.org/whl/cu117"
+torch-cpu = "pip install torch==1.13.1 torchvision==0.14.1 --extra-index-url https://download.pytorch.org/whl/cpu"
