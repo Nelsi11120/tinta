@@ -1,0 +1,6 @@
+pizza 🍕
+hamburger 🍔
+hot-dog 🌭
+donut 🍩
+broccoli 🥦
+other 🤕
