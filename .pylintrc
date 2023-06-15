@@ -3,3 +3,4 @@
 disable=
     C0114, # missing-module-docstring
     E0401, # module import
+    C0411, # wrong-import-order
