@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
       - name: tinta
-        image: nelsi11120/tinta:0.10.0
+        image: nelsi11120/tinta:0.10.1
