@@ -46,7 +46,8 @@ is the best food: pizza, hamburger, hot-dog, donut, or... broccoli! Have fun dra
 
 ARTICLE_ENDING = """
 <center> 
-Check out my <a href="https://www.nelsonantunes.com">blog</a> where I provide more context about this bot.
+Check out my <a href="https://www.nelsonantunes.com">blog</a> where I provide more context about this project, 
+or the dedicated <a href="https://github.com/Nelsi11120/tinta">GitHub</a> repository to get the code.
 </center>
 """
 
