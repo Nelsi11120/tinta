@@ -9,6 +9,7 @@ RUN python -m pip install --upgrade pip
 RUN pip install poetry
 RUN poetry config virtualenvs.create false
 RUN poetry install --without dev,semver
+RUN poe torch-cpu
 
 COPY src/ .
 
